@@ -1,34 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js starter
 
-## Getting Started
+## Getting started
 
-First, run the development server:
+- Clone the project
+
+- Go to the project directory
+
+```bash
+cd path_to_the_project
+```
+
+- Install dependencies (note: this project uses `npm`)
+```bash
+npm install
+```
+
+- Run project locally
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## This starter has the following technologies:
+- Typescript - typed programming language 🙂✨
+- Tailwind CSS - A utility-first CSS framework 
+- Prettier An opinionated code formatter with my opinion of how should the code formatted
+- Eslint - Nextjs basic eslint (you can edit as your necessities)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Things to have in mind
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+`<Head>` element: You can apply to any of your pages and edit some props (remember to change hardcoded things, like the `URL`)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+`<Page>` element: You can wrap with this element all your pages to omit repeated code, you can add more things to that element, such as a Footer, etc.
 
-## Learn More
+Remove hardcoded things in `_document.tsx` file for example og:image, etc.
 
-To learn more about Next.js, take a look at the following resources:
+And last but not least, remember to change the name of the package.json :).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Motivations: 
 
-## Deploy on Vercel
+I made it because every time I start a new project I need to think about this, if you like, you can contribute by adding or changing things to the starter. Hope you like it.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Made with love ❤️ by monto.
